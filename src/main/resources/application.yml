@@ -1,0 +1,16 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/graphql_example
+    username: postgres
+    password: development
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PosgreSQLDialect
