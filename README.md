@@ -22,3 +22,11 @@ Here is the steps you must follow to use this project :
 - Then visit `http://localhost:<your_port>/graphiql`, you will get the graphQL query console link the shown image below
 
 ![Alt text](/graphql-console.png "Optional title")
+
+## When to use GraphQL
+Here is some clues when is the good condition to use GraphQL :
+- When you have bandwidth concern i.e., integration with IoT
+- Data fetching control. GraphQL allow client app to ask just the necessary data. This is the biggest benefit of GraphQL over REST.
+
+## Note!
+GraphQL is alternative for REST but for replacement! So learn both!
