@@ -8,9 +8,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/graphql_example
     username: postgres
     password: development
-#  jpa:
-#    hibernate:
-#      ddl-auto: update
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.PosgreSQLDialect
+server:
+  port: 8080
